@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webappsignin:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="spring-social-security-demo-webapp.war">
+      <element id="artifact" artifact-name="webappsignin:war exploded" />
+    </root>
+  </artifact>
+</component>
