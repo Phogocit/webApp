@@ -1,0 +1,15 @@
+package by.vtbo.facebook;
+
+import org.springframework.social.UserIdSource;
+
+class StaticUserIdSource implements UserIdSource {
+    private static final String DEFAULT_USERID = "anonymous";
+    private String userId = DEFAULT_USERID;
+    @Override
+    public String getUserId() {
+        return this.userId;
+    }
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
+}
